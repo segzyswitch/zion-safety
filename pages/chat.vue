@@ -176,7 +176,7 @@ export default {
     const savedChats = localStorage.getItem('Chats');
     if (savedChats) {
       this.Chats = JSON.parse(savedChats);
-      console.log(this.Chats)
+      // console.log(this.Chats)
     }
   }
 };
