@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   // Global page headers: https://go.nuxtjs.dev/config-head
   app: {
     head: {
-      title: 'Zion AI',
+      title: 'ZION SAFETY EQUIPMENT',
       htmlAttrs: {
         lang: 'en'
       },
