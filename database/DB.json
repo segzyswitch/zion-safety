@@ -1,0 +1,92 @@
+{
+  "caregories": [
+    { "id": 1, "name": "Accessories" },
+    { "id": 2, "name": "Shirts" },
+    { "id": 3, "name": "Polo shirts" },
+    { "id": 4, "name": "Overalls" },
+    { "id": 5, "name": "Base layers" },
+    { "id": 6, "name": "Waistcoats" },
+    { "id": 7, "name": "T-shirt" },
+    { "id": 8, "name": "Sweatshirts" },
+    { "id": 9, "name": "Jackets" },
+    { "id": 10, "name": "Shorts" }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Hi-Vis Zip Sweatshirt",
+      "price": 25400,
+      "oldPrice": 20000,
+      "rating": 4,
+      "brand": "Studio Design",
+      "category": ["Home", "Accessories", "Overalls"],
+      "sizes": ["S", "M", "L", "XL"],
+      "description": "Elevate your style with this timeless men's classic denim jacket. Crafted from durable, high-quality cotton, this jacket combines rugged functionality with versatile fashion. Featuring a slim fit and a button-up front, it’s perfect for layering over your favorite t-shirts or sweaters. The jacket boasts a traditional collar, chest flap pockets, and side pockets for a practical yet stylish touch. The faded blue wash and subtle distressed detailing add a touch of vintage flair, making it ideal for casual outings, weekend adventures, or a night out in the city. Whether paired with jeans for a denim-on-denim look or worn with chinos for a relaxed vibe, this jacket is a staple piece that transitions effortlessly across seasons.",
+      "banner": "hummingbird-printed-t-shirt.jpg"
+    },
+    {
+      "id": 102,
+      "name": "Riggamate Glove – Grey",
+      "price": 28000,
+      "oldPrice": 35000,
+      "rating": 2,
+      "brand": "Studio Design",
+      "category": ["Home", "Accessories", "Base layers"],
+      "sizes": ["S", "M", "L", "XL"],
+      "description": "Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort..",
+      "banner": "brown-bear-printed-sweater.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Hard Hat Earmuffs Class",
+      "price": 29000,
+      "oldPrice": 0,
+      "rating": 4,
+      "image": "",
+      "brand": "Studio Design",
+      "category": ["Home", "Accessories", "Base layers"],
+      "sizes": ["40x60cm", "60x90cm", "80x120cm"],
+      "description": "Printed on rigid matt paper and smooth surface.",
+      "banner": "the-best-is-yet-to-come-framed-poster.jpg"
+    },
+    {
+      "id": 104,
+      "name": "Beanie Limited Edition",
+      "price": 48000,
+      "oldPrice": 52000,
+      "rating": 5,
+      "image": "",
+      "brand": "Studio Design",
+      "category": ["Home", "T-shirt"],
+      "sizes": [],
+      "description": "Printed on rigid matt finish and smooth surface.",
+      "banner": "the-adventure-begins-framed-poster.jpg"
+    },
+    {
+      "id": 105,
+      "name": "Blaklader 1885 Hi-Vis Winter Trousers",
+      "price": 38000,
+      "oldPrice": 0,
+      "rating": 5,
+      "image": "",
+      "brand": "Studio Design",
+      "category": ["Home", "T-shirt"],
+      "sizes": ["S", "M", "L", "XL"],
+      "description": "100% polyester, oxford, laminated, waterproof 10 000 mm, windproof, breathable 4000 g/m²/24H, 200g/m².",
+      "banner": "mug-the-best-is-yet-to-come.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Snikki tool holder 9300 LTHR | Brown",
+      "price": 36500,
+      "oldPrice": 45000,
+      "rating": 3,
+      "image": "",
+      "brand": "Studio Design",
+      "category": ["Home", "T-shirt"],
+      "sizes": ["S", "M", "L", "XL"],
+      "description": "Tool holder in heavy-duty split leather for scaffolders, carpenters and fitters with a special holder for Burton-key. Combine with Fristads ergo belts and other tool pockets to obtain the ultimate tool belt for your profession.",
+      "banner": "pack-mug-framed-poster.jpg"
+    }
+  ]
+}

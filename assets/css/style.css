@@ -1,0 +1,82 @@
+.navbar {
+  height: auto;
+  padding: 25px 0;
+  background-color: #000000;
+  /* background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.3)); */
+}
+.navbar-nav li .nav-link {
+  text-transform: uppercase;
+}
+.top-bar .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #bbb;
+}
+.navbar .dropdown-menu {
+  background-color: #efefef;
+  border-radius: 0;
+}
+.carousel-caption {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  display: flex!important;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 125%;
+}
+.carousel-caption h1 {
+  font-size: 330%;
+  margin-bottom: 20px;
+}
+.carousel-control-next, .carousel-control-prev {
+  width: auto;
+  padding: 0 10px;
+}
+.slider-link a {
+  border-radius: 30px;
+  background: #FFF;
+  padding: 7px 20px!important;
+  font-size: .7em;
+}
+.slider-link a.active {
+  background-color: gold;
+}
+
+
+.nav-pills .nav-link {
+  padding: 12px 30px;
+  border: 2px solid #222;
+  border-radius: 30px;
+  margin-right: 20px;
+  font-size: 1.2em;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-pills .nav-link.active {
+  background-color: #222;
+}
+
+/* Products */
+.product-item {
+  text-decoration: none;
+  color: inherit;
+  transition: all .3s;
+}
+.product-item:hover {
+  opacity: .8;
+}
+
+footer {
+  background-color: #000000;
+}
+
+
+
+/* Helpers */
+.round-30 {border-radius: 30px!important;}
+.bg-gold {background-color: gold!important;}

@@ -3,6 +3,9 @@ require('dotenv').config();
 export default defineNuxtConfig({
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
+  css: [
+    '@/assets/css/style.css',
+  ],
   // Global page headers: https://go.nuxtjs.dev/config-head
   app: {
     head: {
