@@ -1,8 +1,9 @@
 {
-  "caregories": [
+  "categories": [
+    {"id": 11, "name": "Workwear"},
     { "id": 1, "name": "Accessories" },
     { "id": 2, "name": "Shirts" },
-    { "id": 3, "name": "Polo shirts" },
+    { "id": 3, "name": "Footwear" },
     { "id": 4, "name": "Overalls" },
     { "id": 5, "name": "Base layers" },
     { "id": 6, "name": "Waistcoats" },

@@ -1,52 +1,7 @@
 <template>
   <div class="w-100">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark d-block sticky-top">
-      <div class="container sticky-top">
-        <a class="navbar-brand" href="#">ZION SAFETY EQUIPMENTS</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SHOP</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Categories
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="top-bar bg-white">
-      <ul class="nav container d-flex">
-        <li class="nav-item"><a href="#" class="nav-link">Workwear</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Safety Glasses</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Footwear</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Apparel</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Headwear</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Corporate</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Sweatshirts</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Jackets</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Waistcoats</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Safety Glasses</a></li>
-      </ul>
-    </div>
+    <Header />
 
     <!-- Header -->
     <header class="container-fluid px-0 mb-5">
@@ -114,7 +69,7 @@
           <div class="tab-pane fade show active" id="newArrivals">
             <div class="row">
               <div class="col-sm-3 mb-4" v-for="(item, idx) in Products.slice(0,4)">
-                <a href="javascript:void(0)" class="w-100 product-item">
+                <RouterLink :to="`shop/${item.id}`" class="w-100 product-item">
                   <div class="w-100 border p-0 mb-2">
                     <img :src="imageUrl(item.banner)" :alt="item.name" class="w-100" />
                   </div>
@@ -130,14 +85,14 @@
                     <span class="text-danger">₦{{item.price}}</span>
                     <small v-if="item.oldPrice>0" class="text-secondary ms-auto" style="text-decoration:line-through;">₦{{item.oldPrice}}</small>
                   </h4>
-                </a>
+                </RouterLink>
               </div>
             </div>
           </div>
           <div class="tab-pane fade show" id="bestSelling">
             <div class="row">
               <div class="col-sm-3 mb-4" v-for="(item, idx) in Products.slice(4,8)">
-                <a href="javascript:void(0)" class="w-100 product-item">
+                <RouterLink :to="`shop/${item.id}`" class="w-100 product-item">
                   <div class="w-100 border p-0 mb-2">
                     <img :src="imageUrl(item.banner)" :alt="item.name" class="w-100" />
                   </div>
@@ -153,7 +108,7 @@
                     <span class="text-danger">₦{{item.price}}</span>
                     <small v-if="item.oldPrice>0" class="text-secondary ms-auto" style="text-decoration:line-through;">₦{{item.oldPrice}}</small>
                   </h4>
-                </a>
+                </RouterLink>
               </div>
             </div>
           </div>
@@ -192,11 +147,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="w-100 py-5">
-      <div class="container mb-0">
-
-      </div>
-    </footer>
+    <Footer />
 
   </div>
 </template>

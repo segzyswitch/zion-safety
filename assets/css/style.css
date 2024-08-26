@@ -18,6 +18,22 @@
   background-color: #efefef;
   border-radius: 0;
 }
+
+/* chat btn */
+.open-chat-btn {
+  position: fixed;
+  display: flex;
+  z-index: 9999;
+  right: 25px;
+  bottom: 45px;
+  border-radius: 50%;
+}
+.open-chat-btn a {
+  color: gold;
+  font-size: 2.8em;
+  text-shadow: 0 0 10px #999;
+}
+
 .carousel-caption {
   right: 0;
   bottom: 0;
