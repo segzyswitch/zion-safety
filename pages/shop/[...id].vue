@@ -1,12 +1,12 @@
 <template>
   <div>
     <!-- Navbar -->
-    <Header />
+    <pageHeader />
 
     <div class="container py-4 mb-5">
       <ol class="breadcrumb mb-5">
         <li class="breadcrumb-item"><RouterLink to="/" class="text-dark" style="text-decoration:none;">Home</RouterLink></li>
-        <li class="breadcrumb-item"><a href="#" class="text-dark" style="text-decoration:none;">Equipments</a></li>
+        <li class="breadcrumb-item"><RouterLink to="/shop" class="text-dark" style="text-decoration:none;">Equipments</RouterLink></li>
         <li class="breadcrumb-item text-muted" aria-current="page">{{Product.name}}</li>
       </ol>
       <!-- {{ Product }} -->
@@ -30,7 +30,7 @@
     </div>
     
     <!-- Footer -->
-    <Footer />
+    <pageFooter />
   </div>
 </template>
 

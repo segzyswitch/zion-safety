@@ -88,6 +88,58 @@
       "sizes": ["S", "M", "L", "XL"],
       "description": "Tool holder in heavy-duty split leather for scaffolders, carpenters and fitters with a special holder for Burton-key. Combine with Fristads ergo belts and other tool pockets to obtain the ultimate tool belt for your profession.",
       "banner": "pack-mug-framed-poster.jpg"
+    },
+    {
+      "id": 107,
+      "name": "BLAKLADER 4067 Knee pad Tube",
+      "price": 12000,
+      "oldPrice": 0,
+      "rating": 4,
+      "image": "",
+      "brand": "Studio Design",
+      "category": ["Home", "Knee Pads", "Tubes"],
+      "sizes": ["S", "M", "L", "XL"],
+      "description": "Highvis-certified class 1 shorts with stretch panels front, back, in branch and yoke. Equipped with a waistline which results in excellent comfort for the wearer. CORDURA®-reinforced waist pocket, leg pocket with mobile pocket and ID card pocket are some of the features that come with 1541. Certified according to EN ISO 20471, class 1. Combination Certification V.",
+      "banner": "mug-the-adventure-begins.jpg"
+    },
+    {
+      "id": 108,
+      "name": "Snickers 9110 Knee Pads",
+      "price": 8000,
+      "oldPrice": 12000,
+      "rating": 5,
+      "image": "",
+      "brand": "Studio Design",
+      "category": ["Snickers", "Knee Pads", "Tubes"],
+      "sizes": ["One Size"],
+      "description": "Kneepads designed for advanced knee protection for work that involves kneeling. Ideal to mitigate strain in daily use, a lightweight design and flexible construction in this durable knee protection to provide everyday working comfort.",
+      "banner": "hummingbird-cushion.jpg"
+    },
+    {
+      "id": 109,
+      "name": "Blåkläder Shell coverall",
+      "price": 65000,
+      "oldPrice": 0,
+      "rating": 5,
+      "image": "",
+      "brand": "Studio Design",
+      "category": ["Blaklader", "Winter", "Overalls"],
+      "sizes": ["36S", "37S", "39S", "41S", "43S", "45S", "47S", "32R"],
+      "description": "100% polyester, oxford, laminated, waterproof 10 000 mm, windproof, breathable 4000 g/m²/24H, 200g/m². Removable hood with mesh lining Taped seams Wide loops at back and sides Elastic at waistline.",
+      "banner": "brown-bear-cushion.jpg"
+    },
+    {
+      "id": 110,
+      "name": "Winter Yellow Insulated Rain Coats Waterproof Hoodie",
+      "price": 15000,
+      "oldPrice": 0,
+      "rating": 2,
+      "image": "",
+      "brand": "Studio Design",
+      "category": ["Waterproof", "Winter", "Hoodie"],
+      "sizes": ["Medium", "Large", "X Large"],
+      "description": "Thermal Insulation:Quilted lining provides insulation, comfortable warmth, and no excess flesh. Built in plush lining, greatly improving warmth, and with a plush design in the pocket, it can perfectly wrap your hands even in cold winter days. Waterproof and windproof properties:The fabric is waterproof, and the high collar separates the hat from the collar to prevent rainwater from flowing into your neck. The hat is double reinforced, with drawstrings to adjust the tightness of the hat and built-in Velcro to perfectly protect your neck. Windproof and waterproof, keeping you dry at all times.",
+      "banner": "mountain-fox-cushion.jpg"
     }
   ]
 }

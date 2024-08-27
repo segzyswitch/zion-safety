@@ -12,7 +12,7 @@
               <RouterLink to="/" class="nav-link pe-4 active" aria-current="page">Home</RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link pe-4" href="#">Equipments</a>
+              <RouterLink to="/shop" class="nav-link pe-4">Shop</RouterLink>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link pe-4 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -1,7 +1,7 @@
 <template>
   <div class="w-100">
     <!-- Navbar -->
-    <Header />
+    <pageHeader />
 
     <!-- Header -->
     <header class="container-fluid px-0 mb-5">
@@ -118,7 +118,7 @@
 
     <!-- Section -->
     <section class="w-100 mb-5 position-relative">
-      <img src="../assets/images/vt_axetor_home1_banner_2.webp" class="w-100">
+      <img src="@/assets/images/vt_axetor_home1_banner_2.webp" class="w-100">
       <div class="w-100 position-absolute h-100 d-flex" style="top:0;">
         <div class="container m-auto text-white">
           <h1 class="display-1 text-uppercase fw-bold">men’s work pants</h1>
@@ -131,23 +131,10 @@
     </section>
 
     <!-- About section -->
-    <section class="container mb-5">
-      <div class="row">
-        <div class="col-sm-7 my-auto">
-          <h1 class="display-1">About Us</h1>
-          <p class="lead p-0 mb-4">Zion safety  Equipment provides a wide range of safety gear including helmets, gloves, and protective clothing. The company’s website play a crucial role in driving sales, engaging customers, and providing information about their products.<br />  Improving the efficiency of web development and maintenance can significantly impact Zion safety Equipment’s operational effectiveness and customer satisfaction.</p>
-          <a href="javascript:void(0)" class="btn btn-lg bg-gold text-dark round-30 text-uppercase px-4">
-            <span class="px-2 d-block py-1">Learn more <i class="bi bi-arrow-right ms-2"></i></span>
-          </a>
-        </div>
-        <div class="col-sm-5">
-          <img src="../assets/images/safety-first-sign-tools.jpg" alt="" class="img-responsive m-auto mw-100">
-        </div>
-      </div>
-    </section>
+    <AboutUs />
 
     <!-- Footer -->
-    <Footer />
+    <pageFooter />
 
   </div>
 </template>
