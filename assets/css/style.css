@@ -1,4 +1,4 @@
-
+/* CHAT SCROLLBAR */
 .chat-box ::-webkit-scrollbar {
   width: 7px;
   height: 7px;
@@ -18,12 +18,11 @@
   display: none;
 }
 
-
+/* Navbar */
 .navbar {
   height: auto;
   padding: 25px 0;
   background-color: #000000;
-  /* background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.3)); */
 }
 .navbar-nav li .nav-link {
   text-transform: uppercase;
