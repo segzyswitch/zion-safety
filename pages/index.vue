@@ -150,7 +150,7 @@ export default {
   },
   methods: {
     imageUrl(file) {
-      return "/_nuxt/assets/images/"+file;
+      return "https://images.aaveinvestment.org/"+file;
     }
   }
 }
