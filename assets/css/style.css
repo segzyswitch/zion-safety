@@ -28,6 +28,9 @@
 .navbar-nav li .nav-link {
   text-transform: uppercase;
 }
+.navbar-nav li .nav-link.router-link-active {
+  color: #FFF!important;
+}
 .top-bar .nav-link {
   color: #333;
   font-weight: 500;
