@@ -1,17 +1,4 @@
 {
-  "categories": [
-    {"id": 11, "name": "Workwear"},
-    { "id": 1, "name": "Accessories" },
-    { "id": 2, "name": "Shirts" },
-    { "id": 3, "name": "Footwear" },
-    { "id": 4, "name": "Overalls" },
-    { "id": 5, "name": "Base layers" },
-    { "id": 6, "name": "Waistcoats" },
-    { "id": 7, "name": "T-shirt" },
-    { "id": 8, "name": "Sweatshirts" },
-    { "id": 9, "name": "Jackets" },
-    { "id": 10, "name": "Shorts" }
-  ],
   "products": [
     {
       "id": 101,
@@ -141,5 +128,18 @@
       "description": "Thermal Insulation:Quilted lining provides insulation, comfortable warmth, and no excess flesh. Built in plush lining, greatly improving warmth, and with a plush design in the pocket, it can perfectly wrap your hands even in cold winter days. Waterproof and windproof properties:The fabric is waterproof, and the high collar separates the hat from the collar to prevent rainwater from flowing into your neck. The hat is double reinforced, with drawstrings to adjust the tightness of the hat and built-in Velcro to perfectly protect your neck. Windproof and waterproof, keeping you dry at all times.",
       "banner": "mountain-fox-cushion.jpg"
     }
+  ],
+  "categories": [
+    {"id": 11, "name": "Workwear"},
+    { "id": 1, "name": "Accessories" },
+    { "id": 2, "name": "Shirts" },
+    { "id": 3, "name": "Footwear" },
+    { "id": 4, "name": "Overalls" },
+    { "id": 5, "name": "Base layers" },
+    { "id": 6, "name": "Waistcoats" },
+    { "id": 7, "name": "T-shirt" },
+    { "id": 8, "name": "Sweatshirts" },
+    { "id": 9, "name": "Jackets" },
+    { "id": 10, "name": "Shorts" }
   ]
 }
